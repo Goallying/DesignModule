@@ -61,6 +61,14 @@
 		55B0D26D2063603900DECA09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55B0D26C2063603900DECA09 /* Assets.xcassets */; };
 		55B0D2702063603900DECA09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55B0D26E2063603900DECA09 /* LaunchScreen.storyboard */; };
 		55B0D2732063603900DECA09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B0D2722063603900DECA09 /* main.m */; };
+		55B0D27B206379E400DECA09 /* OrderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B0D27A206379E400DECA09 /* OrderOperation.m */; };
+		55B0D27E206379F600DECA09 /* Good.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B0D27D206379F600DECA09 /* Good.m */; };
+		55B0D28120637B8000DECA09 /* Operations.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B0D28020637B8000DECA09 /* Operations.m */; };
+		55B0D28420637D9D00DECA09 /* DemesticGood.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B0D28320637D9D00DECA09 /* DemesticGood.m */; };
+		55B0D28720637DC100DECA09 /* OverseaGood.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B0D28620637DC100DECA09 /* OverseaGood.m */; };
+		55B0D28A2063852300DECA09 /* GoodFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B0D2892063852300DECA09 /* GoodFactory.m */; };
+		55B0D28D2063859800DECA09 /* DemesticGoodFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B0D28C2063859800DECA09 /* DemesticGoodFactory.m */; };
+		55B0D290206385CF00DECA09 /* OverseaGoodFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B0D28F206385CF00DECA09 /* OverseaGoodFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -159,6 +167,22 @@
 		55B0D26F2063603900DECA09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55B0D2712063603900DECA09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55B0D2722063603900DECA09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55B0D279206379E400DECA09 /* OrderOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderOperation.h; sourceTree = "<group>"; };
+		55B0D27A206379E400DECA09 /* OrderOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderOperation.m; sourceTree = "<group>"; };
+		55B0D27C206379F600DECA09 /* Good.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Good.h; sourceTree = "<group>"; };
+		55B0D27D206379F600DECA09 /* Good.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Good.m; sourceTree = "<group>"; };
+		55B0D27F20637B8000DECA09 /* Operations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Operations.h; sourceTree = "<group>"; };
+		55B0D28020637B8000DECA09 /* Operations.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Operations.m; sourceTree = "<group>"; };
+		55B0D28220637D9D00DECA09 /* DemesticGood.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemesticGood.h; sourceTree = "<group>"; };
+		55B0D28320637D9D00DECA09 /* DemesticGood.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemesticGood.m; sourceTree = "<group>"; };
+		55B0D28520637DC100DECA09 /* OverseaGood.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OverseaGood.h; sourceTree = "<group>"; };
+		55B0D28620637DC100DECA09 /* OverseaGood.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OverseaGood.m; sourceTree = "<group>"; };
+		55B0D2882063852300DECA09 /* GoodFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoodFactory.h; sourceTree = "<group>"; };
+		55B0D2892063852300DECA09 /* GoodFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoodFactory.m; sourceTree = "<group>"; };
+		55B0D28B2063859800DECA09 /* DemesticGoodFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemesticGoodFactory.h; sourceTree = "<group>"; };
+		55B0D28C2063859800DECA09 /* DemesticGoodFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemesticGoodFactory.m; sourceTree = "<group>"; };
+		55B0D28E206385CF00DECA09 /* OverseaGoodFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OverseaGoodFactory.h; sourceTree = "<group>"; };
+		55B0D28F206385CF00DECA09 /* OverseaGoodFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OverseaGoodFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -370,6 +394,22 @@
 				55B0D2642063603900DECA09 /* AppDelegate.m */,
 				55B0D2662063603900DECA09 /* ViewController.h */,
 				55B0D2672063603900DECA09 /* ViewController.m */,
+				55B0D27F20637B8000DECA09 /* Operations.h */,
+				55B0D28020637B8000DECA09 /* Operations.m */,
+				55B0D279206379E400DECA09 /* OrderOperation.h */,
+				55B0D27A206379E400DECA09 /* OrderOperation.m */,
+				55B0D27C206379F600DECA09 /* Good.h */,
+				55B0D27D206379F600DECA09 /* Good.m */,
+				55B0D28220637D9D00DECA09 /* DemesticGood.h */,
+				55B0D28320637D9D00DECA09 /* DemesticGood.m */,
+				55B0D28520637DC100DECA09 /* OverseaGood.h */,
+				55B0D28620637DC100DECA09 /* OverseaGood.m */,
+				55B0D28B2063859800DECA09 /* DemesticGoodFactory.h */,
+				55B0D28C2063859800DECA09 /* DemesticGoodFactory.m */,
+				55B0D28E206385CF00DECA09 /* OverseaGoodFactory.h */,
+				55B0D28F206385CF00DECA09 /* OverseaGoodFactory.m */,
+				55B0D2882063852300DECA09 /* GoodFactory.h */,
+				55B0D2892063852300DECA09 /* GoodFactory.m */,
 				55B0D2692063603900DECA09 /* Main.storyboard */,
 				55B0D26C2063603900DECA09 /* Assets.xcassets */,
 				55B0D26E2063603900DECA09 /* LaunchScreen.storyboard */,
@@ -714,9 +754,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55B0D27B206379E400DECA09 /* OrderOperation.m in Sources */,
+				55B0D28D2063859800DECA09 /* DemesticGoodFactory.m in Sources */,
+				55B0D27E206379F600DECA09 /* Good.m in Sources */,
 				55B0D2682063603900DECA09 /* ViewController.m in Sources */,
+				55B0D290206385CF00DECA09 /* OverseaGoodFactory.m in Sources */,
+				55B0D28120637B8000DECA09 /* Operations.m in Sources */,
+				55B0D28A2063852300DECA09 /* GoodFactory.m in Sources */,
 				55B0D2732063603900DECA09 /* main.m in Sources */,
 				55B0D2652063603900DECA09 /* AppDelegate.m in Sources */,
+				55B0D28720637DC100DECA09 /* OverseaGood.m in Sources */,
+				55B0D28420637D9D00DECA09 /* DemesticGood.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
