@@ -63,6 +63,8 @@
 		55B0D28A2063852300DECA09 /* GoodFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B0D2892063852300DECA09 /* GoodFactory.m */; };
 		55B0D28D2063859800DECA09 /* DemesticGoodFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B0D28C2063859800DECA09 /* DemesticGoodFactory.m */; };
 		55B0D290206385CF00DECA09 /* OverseaGoodFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B0D28F206385CF00DECA09 /* OverseaGoodFactory.m */; };
+		AE6271AB206A674A00003160 /* Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6271AA206A674A00003160 /* Operation.m */; };
+		AE6271AE206A678C00003160 /* OperationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6271AD206A678C00003160 /* OperationAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -167,6 +169,10 @@
 		55B0D28C2063859800DECA09 /* DemesticGoodFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemesticGoodFactory.m; sourceTree = "<group>"; };
 		55B0D28E206385CF00DECA09 /* OverseaGoodFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OverseaGoodFactory.h; sourceTree = "<group>"; };
 		55B0D28F206385CF00DECA09 /* OverseaGoodFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OverseaGoodFactory.m; sourceTree = "<group>"; };
+		AE6271A9206A674A00003160 /* Operation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Operation.h; sourceTree = "<group>"; };
+		AE6271AA206A674A00003160 /* Operation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Operation.m; sourceTree = "<group>"; };
+		AE6271AC206A678C00003160 /* OperationAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OperationAdd.h; sourceTree = "<group>"; };
+		AE6271AD206A678C00003160 /* OperationAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OperationAdd.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -266,6 +272,10 @@
 				55B0D1C620634C0900DECA09 /* AppDelegate.m */,
 				55B0D1C820634C0900DECA09 /* ViewController.h */,
 				55B0D1C920634C0900DECA09 /* ViewController.m */,
+				AE6271AC206A678C00003160 /* OperationAdd.h */,
+				AE6271AD206A678C00003160 /* OperationAdd.m */,
+				AE6271A9206A674A00003160 /* Operation.h */,
+				AE6271AA206A674A00003160 /* Operation.m */,
 				55B0D2002063569600DECA09 /* Product.h */,
 				55B0D2012063569600DECA09 /* Product.m */,
 				55B0D206206356F500DECA09 /* FactoryA.h */,
@@ -627,6 +637,8 @@
 				55B0D208206356F500DECA09 /* FactoryA.m in Sources */,
 				55B0D20B2063574D00DECA09 /* FactoryB.m in Sources */,
 				55B0D1C720634C0900DECA09 /* AppDelegate.m in Sources */,
+				AE6271AB206A674A00003160 /* Operation.m in Sources */,
+				AE6271AE206A678C00003160 /* OperationAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

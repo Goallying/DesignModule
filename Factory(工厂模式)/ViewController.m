@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "FactoryA.h"
 #import "FactoryB.h"
+
+#import "Operation.h"
 @interface ViewController ()
 
 @end
@@ -19,12 +21,16 @@
     [super viewDidLoad];
     
     
-    //1.工厂模式,由具体类实现产出具体输出结果。
-    Product * aProduct = [FactoryA product];
-    Product * bProduct = [FactoryB product];
-    NSLog(@"A == %@, B==%@",aProduct.productName ,bProduct.productName);
+//    //1.工厂模式,由具体类实现产出具体输出结果。
+//    Product * aProduct = [FactoryA product];
+//    Product * bProduct = [FactoryB product];
+//    NSLog(@"A == %@, B==%@",aProduct.productName ,bProduct.productName);
 
     
+    Operation * o = [Operation operationWith:@"+"];
+    o.a = 1000 ;
+    o.b = 2000 ;
+    NSLog(@"value === %d",o.value);
     
 }
 
