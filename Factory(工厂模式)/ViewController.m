@@ -20,13 +20,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
-//    //1.工厂模式,由具体类实现产出具体输出结果。
+    //工厂方法
 //    Product * aProduct = [FactoryA product];
 //    Product * bProduct = [FactoryB product];
 //    NSLog(@"A == %@, B==%@",aProduct.productName ,bProduct.productName);
-
     
+//1.工厂模式,由具体类实现产出具体输出结果。
     Operation * o = [Operation operationWith:@"+"];
     o.a = 1000 ;
     o.b = 2000 ;

@@ -7,10 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "UITextField+Input.h"
 //策略模式
 #import "Employee.h"
 
-@interface ViewController ()
+@interface ViewController ()<UITextFieldDelegate>
 
 @end
 
@@ -27,7 +28,26 @@
     Employee<EmployeeProtocol> * em2 = [Employee employWithType:Type_Designer];
     [em1 say];
     [em2 say];
+    
+    UITextField * tf1 = [[UITextField alloc]initWithFrame:CGRectMake(0, 100, 100, 30)];
+    tf1.delegate = self ;
+    tf1.limit = [NumIlimit new];
+    tf1.backgroundColor = [UIColor yellowColor];
+    [self.view addSubview:tf1];
+    
+    UITextField * tf2 = [[UITextField alloc]initWithFrame:CGRectMake(0, 150, 100, 30)];
+    tf2.delegate = self ;
+    tf2.limit = [LetterLimit new];
+    tf2.backgroundColor = [UIColor yellowColor];
+    [self.view addSubview:tf2];
+    
+}
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    [self.view endEditing:YES];
+}
 
+- (void)textFieldDidEndEditing:(UITextField *)textField{
+    [textField charge];
 }
 
 

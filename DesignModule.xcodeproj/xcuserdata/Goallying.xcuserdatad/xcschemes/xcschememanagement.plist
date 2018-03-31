@@ -17,12 +17,12 @@
 		<key>Factory(工厂模式).xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>0</integer>
 		</dict>
 		<key>SingleTon(单列模式).xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<key>Strategy(策略模式).xcscheme</key>
 		<dict>

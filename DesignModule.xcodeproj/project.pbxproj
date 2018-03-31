@@ -63,8 +63,13 @@
 		55B0D28A2063852300DECA09 /* GoodFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B0D2892063852300DECA09 /* GoodFactory.m */; };
 		55B0D28D2063859800DECA09 /* DemesticGoodFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B0D28C2063859800DECA09 /* DemesticGoodFactory.m */; };
 		55B0D290206385CF00DECA09 /* OverseaGoodFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B0D28F206385CF00DECA09 /* OverseaGoodFactory.m */; };
+		AE45D5AC206FC76F00C39416 /* UITextField+Input.m in Sources */ = {isa = PBXBuildFile; fileRef = AE45D5AB206FC76F00C39416 /* UITextField+Input.m */; };
+		AE45D5AF206FC79F00C39416 /* InputlimitType.m in Sources */ = {isa = PBXBuildFile; fileRef = AE45D5AE206FC79F00C39416 /* InputlimitType.m */; };
+		AE45D5B2206FC8C700C39416 /* NumIlimit.m in Sources */ = {isa = PBXBuildFile; fileRef = AE45D5B1206FC8C700C39416 /* NumIlimit.m */; };
+		AE45D5B5206FC8D700C39416 /* LetterLimit.m in Sources */ = {isa = PBXBuildFile; fileRef = AE45D5B4206FC8D700C39416 /* LetterLimit.m */; };
 		AE6271AB206A674A00003160 /* Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6271AA206A674A00003160 /* Operation.m */; };
 		AE6271AE206A678C00003160 /* OperationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6271AD206A678C00003160 /* OperationAdd.m */; };
+		AEDA072A206BA7FD000A6710 /* 桥接UML.png in Resources */ = {isa = PBXBuildFile; fileRef = AEDA0729206BA7FD000A6710 /* 桥接UML.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -169,10 +174,19 @@
 		55B0D28C2063859800DECA09 /* DemesticGoodFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemesticGoodFactory.m; sourceTree = "<group>"; };
 		55B0D28E206385CF00DECA09 /* OverseaGoodFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OverseaGoodFactory.h; sourceTree = "<group>"; };
 		55B0D28F206385CF00DECA09 /* OverseaGoodFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OverseaGoodFactory.m; sourceTree = "<group>"; };
+		AE45D5AA206FC76F00C39416 /* UITextField+Input.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+Input.h"; sourceTree = "<group>"; };
+		AE45D5AB206FC76F00C39416 /* UITextField+Input.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Input.m"; sourceTree = "<group>"; };
+		AE45D5AD206FC79F00C39416 /* InputlimitType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputlimitType.h; sourceTree = "<group>"; };
+		AE45D5AE206FC79F00C39416 /* InputlimitType.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputlimitType.m; sourceTree = "<group>"; };
+		AE45D5B0206FC8C700C39416 /* NumIlimit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumIlimit.h; sourceTree = "<group>"; };
+		AE45D5B1206FC8C700C39416 /* NumIlimit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumIlimit.m; sourceTree = "<group>"; };
+		AE45D5B3206FC8D700C39416 /* LetterLimit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LetterLimit.h; sourceTree = "<group>"; };
+		AE45D5B4206FC8D700C39416 /* LetterLimit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LetterLimit.m; sourceTree = "<group>"; };
 		AE6271A9206A674A00003160 /* Operation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Operation.h; sourceTree = "<group>"; };
 		AE6271AA206A674A00003160 /* Operation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Operation.m; sourceTree = "<group>"; };
 		AE6271AC206A678C00003160 /* OperationAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OperationAdd.h; sourceTree = "<group>"; };
 		AE6271AD206A678C00003160 /* OperationAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OperationAdd.m; sourceTree = "<group>"; };
+		AEDA0729206BA7FD000A6710 /* 桥接UML.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "桥接UML.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -323,6 +337,14 @@
 				55B0D23620635C8800DECA09 /* EmployeeProtocol.h */,
 				55B0D21220635C2700DECA09 /* AppDelegate.h */,
 				55B0D21320635C2700DECA09 /* AppDelegate.m */,
+				AE45D5AA206FC76F00C39416 /* UITextField+Input.h */,
+				AE45D5AB206FC76F00C39416 /* UITextField+Input.m */,
+				AE45D5B0206FC8C700C39416 /* NumIlimit.h */,
+				AE45D5B1206FC8C700C39416 /* NumIlimit.m */,
+				AE45D5B3206FC8D700C39416 /* LetterLimit.h */,
+				AE45D5B4206FC8D700C39416 /* LetterLimit.m */,
+				AE45D5AD206FC79F00C39416 /* InputlimitType.h */,
+				AE45D5AE206FC79F00C39416 /* InputlimitType.m */,
 				55B0D21520635C2700DECA09 /* ViewController.h */,
 				55B0D21620635C2700DECA09 /* ViewController.m */,
 				55B0D21820635C2700DECA09 /* Main.storyboard */,
@@ -359,6 +381,7 @@
 		55B0D2622063603900DECA09 /* Bridge(桥接模式) */ = {
 			isa = PBXGroup;
 			children = (
+				AEDA0729206BA7FD000A6710 /* 桥接UML.png */,
 				55B0D2632063603900DECA09 /* AppDelegate.h */,
 				55B0D2642063603900DECA09 /* AppDelegate.m */,
 				55B0D2662063603900DECA09 /* ViewController.h */,
@@ -606,6 +629,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEDA072A206BA7FD000A6710 /* 桥接UML.png in Resources */,
 				55B0D2702063603900DECA09 /* LaunchScreen.storyboard in Resources */,
 				55B0D26D2063603900DECA09 /* Assets.xcassets in Resources */,
 				55B0D26B2063603900DECA09 /* Main.storyboard in Resources */,
@@ -660,8 +684,12 @@
 				55B0D23920635C8800DECA09 /* Developer.m in Sources */,
 				55B0D21720635C2700DECA09 /* ViewController.m in Sources */,
 				55B0D23820635C8800DECA09 /* Designer.m in Sources */,
+				AE45D5AC206FC76F00C39416 /* UITextField+Input.m in Sources */,
+				AE45D5AF206FC79F00C39416 /* InputlimitType.m in Sources */,
 				55B0D23720635C8800DECA09 /* Employee.m in Sources */,
 				55B0D22220635C2700DECA09 /* main.m in Sources */,
+				AE45D5B5206FC8D700C39416 /* LetterLimit.m in Sources */,
+				AE45D5B2206FC8C700C39416 /* NumIlimit.m in Sources */,
 				55B0D21420635C2700DECA09 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
