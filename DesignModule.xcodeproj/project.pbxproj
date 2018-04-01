@@ -63,6 +63,9 @@
 		55B0D28A2063852300DECA09 /* GoodFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B0D2892063852300DECA09 /* GoodFactory.m */; };
 		55B0D28D2063859800DECA09 /* DemesticGoodFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B0D28C2063859800DECA09 /* DemesticGoodFactory.m */; };
 		55B0D290206385CF00DECA09 /* OverseaGoodFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B0D28F206385CF00DECA09 /* OverseaGoodFactory.m */; };
+		AE0B9A0220710211004B1038 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0B9A0020710211004B1038 /* CollectionViewCell.m */; };
+		AE0B9A0320710211004B1038 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE0B9A0120710211004B1038 /* CollectionViewCell.xib */; };
+		AE0B9A092071099E004B1038 /* UICollectionView+Type.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0B9A082071099E004B1038 /* UICollectionView+Type.m */; };
 		AE45D5AC206FC76F00C39416 /* UITextField+Input.m in Sources */ = {isa = PBXBuildFile; fileRef = AE45D5AB206FC76F00C39416 /* UITextField+Input.m */; };
 		AE45D5AF206FC79F00C39416 /* InputlimitType.m in Sources */ = {isa = PBXBuildFile; fileRef = AE45D5AE206FC79F00C39416 /* InputlimitType.m */; };
 		AE45D5B2206FC8C700C39416 /* NumIlimit.m in Sources */ = {isa = PBXBuildFile; fileRef = AE45D5B1206FC8C700C39416 /* NumIlimit.m */; };
@@ -174,6 +177,11 @@
 		55B0D28C2063859800DECA09 /* DemesticGoodFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemesticGoodFactory.m; sourceTree = "<group>"; };
 		55B0D28E206385CF00DECA09 /* OverseaGoodFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OverseaGoodFactory.h; sourceTree = "<group>"; };
 		55B0D28F206385CF00DECA09 /* OverseaGoodFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OverseaGoodFactory.m; sourceTree = "<group>"; };
+		AE0B99FF20710211004B1038 /* CollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		AE0B9A0020710211004B1038 /* CollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		AE0B9A0120710211004B1038 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		AE0B9A072071099E004B1038 /* UICollectionView+Type.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+Type.h"; sourceTree = "<group>"; };
+		AE0B9A082071099E004B1038 /* UICollectionView+Type.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+Type.m"; sourceTree = "<group>"; };
 		AE45D5AA206FC76F00C39416 /* UITextField+Input.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+Input.h"; sourceTree = "<group>"; };
 		AE45D5AB206FC76F00C39416 /* UITextField+Input.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Input.m"; sourceTree = "<group>"; };
 		AE45D5AD206FC79F00C39416 /* InputlimitType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputlimitType.h; sourceTree = "<group>"; };
@@ -345,6 +353,11 @@
 				AE45D5B4206FC8D700C39416 /* LetterLimit.m */,
 				AE45D5AD206FC79F00C39416 /* InputlimitType.h */,
 				AE45D5AE206FC79F00C39416 /* InputlimitType.m */,
+				AE0B9A072071099E004B1038 /* UICollectionView+Type.h */,
+				AE0B9A082071099E004B1038 /* UICollectionView+Type.m */,
+				AE0B99FF20710211004B1038 /* CollectionViewCell.h */,
+				AE0B9A0020710211004B1038 /* CollectionViewCell.m */,
+				AE0B9A0120710211004B1038 /* CollectionViewCell.xib */,
 				55B0D21520635C2700DECA09 /* ViewController.h */,
 				55B0D21620635C2700DECA09 /* ViewController.m */,
 				55B0D21820635C2700DECA09 /* Main.storyboard */,
@@ -611,6 +624,7 @@
 			files = (
 				55B0D21F20635C2700DECA09 /* LaunchScreen.storyboard in Resources */,
 				55B0D21C20635C2700DECA09 /* Assets.xcassets in Resources */,
+				AE0B9A0320710211004B1038 /* CollectionViewCell.xib in Resources */,
 				55B0D21A20635C2700DECA09 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -681,6 +695,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE0B9A092071099E004B1038 /* UICollectionView+Type.m in Sources */,
 				55B0D23920635C8800DECA09 /* Developer.m in Sources */,
 				55B0D21720635C2700DECA09 /* ViewController.m in Sources */,
 				55B0D23820635C8800DECA09 /* Designer.m in Sources */,
@@ -690,6 +705,7 @@
 				55B0D22220635C2700DECA09 /* main.m in Sources */,
 				AE45D5B5206FC8D700C39416 /* LetterLimit.m in Sources */,
 				AE45D5B2206FC8C700C39416 /* NumIlimit.m in Sources */,
+				AE0B9A0220710211004B1038 /* CollectionViewCell.m in Sources */,
 				55B0D21420635C2700DECA09 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
