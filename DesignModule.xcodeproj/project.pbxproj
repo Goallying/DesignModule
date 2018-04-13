@@ -39,6 +39,10 @@
 		553E416C2080871C00895843 /* BMWBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 553E416B2080871C00895843 /* BMWBuilder.m */; };
 		553E416F2080874200895843 /* BenzCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 553E416E2080874200895843 /* BenzCar.m */; };
 		553E41722080875300895843 /* BMWCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 553E41712080875300895843 /* BMWCar.m */; };
+		AE539D422080E00400A3D70B /* AVPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AE539D412080E00400A3D70B /* AVPlayer.m */; };
+		AE539D452080E05900A3D70B /* AdapterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AE539D442080E05900A3D70B /* AdapterVC.m */; };
+		AE539D482080E10900A3D70B /* IJKPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AE539D472080E10900A3D70B /* IJKPlayer.m */; };
+		AE539D4B2080E29200A3D70B /* IJKAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = AE539D4A2080E29200A3D70B /* IJKAdapter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -105,6 +109,15 @@
 		553E41702080875300895843 /* BMWCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMWCar.h; sourceTree = "<group>"; };
 		553E41712080875300895843 /* BMWCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMWCar.m; sourceTree = "<group>"; };
 		553E417820808E5C00895843 /* BuilderProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuilderProtocol.h; sourceTree = "<group>"; };
+		AE539D3F2080DFAA00A3D70B /* AVPlayerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVPlayerProtocol.h; sourceTree = "<group>"; };
+		AE539D402080E00400A3D70B /* AVPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVPlayer.h; sourceTree = "<group>"; };
+		AE539D412080E00400A3D70B /* AVPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVPlayer.m; sourceTree = "<group>"; };
+		AE539D432080E05900A3D70B /* AdapterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdapterVC.h; sourceTree = "<group>"; };
+		AE539D442080E05900A3D70B /* AdapterVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdapterVC.m; sourceTree = "<group>"; };
+		AE539D462080E10900A3D70B /* IJKPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJKPlayer.h; sourceTree = "<group>"; };
+		AE539D472080E10900A3D70B /* IJKPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJKPlayer.m; sourceTree = "<group>"; };
+		AE539D492080E29200A3D70B /* IJKAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJKAdapter.h; sourceTree = "<group>"; };
+		AE539D4A2080E29200A3D70B /* IJKAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJKAdapter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,13 +134,12 @@
 		553E40F520807A7E00895843 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				553E417A2080AE6800895843 /* 适配器模式 */,
+				AE539D3E2080DF8E00A3D70B /* 适配器模式 */,
 				553E41602080863D00895843 /* 建造者模式 */,
 				553E4152208082F700895843 /* 模板模式 */,
 				553E41442080822C00895843 /* 策略模式 */,
 				553E411C20807C5900895843 /* 单列模式 */,
 				553E413320807DDA00895843 /* 代理模式 */,
-				553E415F2080835400895843 /* 桥接模式 */,
 				553E411D20807D1200895843 /* 工厂模式 */,
 				553E40F620807A7E00895843 /* AppDelegate.h */,
 				553E40F720807A7E00895843 /* AppDelegate.m */,
@@ -217,13 +229,6 @@
 			path = "模板模式";
 			sourceTree = "<group>";
 		};
-		553E415F2080835400895843 /* 桥接模式 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "桥接模式";
-			sourceTree = "<group>";
-		};
 		553E41602080863D00895843 /* 建造者模式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -244,13 +249,6 @@
 			path = "建造者模式";
 			sourceTree = "<group>";
 		};
-		553E417A2080AE6800895843 /* 适配器模式 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "适配器模式";
-			sourceTree = "<group>";
-		};
 		55B0D180206349DC00DECA09 = {
 			isa = PBXGroup;
 			children = (
@@ -265,6 +263,22 @@
 				553E40F420807A7E00895843 /* Modules.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		AE539D3E2080DF8E00A3D70B /* 适配器模式 */ = {
+			isa = PBXGroup;
+			children = (
+				AE539D3F2080DFAA00A3D70B /* AVPlayerProtocol.h */,
+				AE539D402080E00400A3D70B /* AVPlayer.h */,
+				AE539D412080E00400A3D70B /* AVPlayer.m */,
+				AE539D462080E10900A3D70B /* IJKPlayer.h */,
+				AE539D472080E10900A3D70B /* IJKPlayer.m */,
+				AE539D492080E29200A3D70B /* IJKAdapter.h */,
+				AE539D4A2080E29200A3D70B /* IJKAdapter.m */,
+				AE539D432080E05900A3D70B /* AdapterVC.h */,
+				AE539D442080E05900A3D70B /* AdapterVC.m */,
+			);
+			path = "适配器模式";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -339,10 +353,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE539D482080E10900A3D70B /* IJKPlayer.m in Sources */,
 				553E415E2080832800895843 /* Doctor.m in Sources */,
 				553E412C20807D9000895843 /* FactoryA.m in Sources */,
 				553E412D20807D9000895843 /* OperationAdd.m in Sources */,
 				553E411920807C1000895843 /* ShareObjVC.m in Sources */,
+				AE539D4B2080E29200A3D70B /* IJKAdapter.m in Sources */,
 				553E415D2080832800895843 /* People.m in Sources */,
 				553E413220807D9000895843 /* BaseFactory.m in Sources */,
 				553E41662080867600895843 /* Car.m in Sources */,
@@ -351,6 +367,7 @@
 				553E413120807D9000895843 /* FactoryB.m in Sources */,
 				553E40FB20807A7E00895843 /* ViewController.m in Sources */,
 				553E415B2080832800895843 /* TemplateVC.m in Sources */,
+				AE539D452080E05900A3D70B /* AdapterVC.m in Sources */,
 				553E415C2080832800895843 /* Teacher.m in Sources */,
 				553E410620807A7E00895843 /* main.m in Sources */,
 				553E412E20807D9000895843 /* Product.m in Sources */,
@@ -361,6 +378,7 @@
 				553E40F820807A7E00895843 /* AppDelegate.m in Sources */,
 				553E414F2080828500895843 /* StrategyVC.m in Sources */,
 				553E41512080828500895843 /* UITextField+Input.m in Sources */,
+				AE539D422080E00400A3D70B /* AVPlayer.m in Sources */,
 				553E413F208080E500895843 /* DelegateVC.m in Sources */,
 				553E41722080875300895843 /* BMWCar.m in Sources */,
 				553E414E2080828500895843 /* NumIlimit.m in Sources */,
