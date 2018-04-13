@@ -33,6 +33,12 @@
 		553E415C2080832800895843 /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 553E41572080832800895843 /* Teacher.m */; };
 		553E415D2080832800895843 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 553E41592080832800895843 /* People.m */; };
 		553E415E2080832800895843 /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = 553E415A2080832800895843 /* Doctor.m */; };
+		553E41632080865D00895843 /* BuilderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 553E41622080865D00895843 /* BuilderVC.m */; };
+		553E41662080867600895843 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 553E41652080867600895843 /* Car.m */; };
+		553E41692080870500895843 /* BenzBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 553E41682080870500895843 /* BenzBuilder.m */; };
+		553E416C2080871C00895843 /* BMWBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 553E416B2080871C00895843 /* BMWBuilder.m */; };
+		553E416F2080874200895843 /* BenzCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 553E416E2080874200895843 /* BenzCar.m */; };
+		553E41722080875300895843 /* BMWCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 553E41712080875300895843 /* BMWCar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +92,19 @@
 		553E41582080832800895843 /* Teacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
 		553E41592080832800895843 /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
 		553E415A2080832800895843 /* Doctor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Doctor.m; sourceTree = "<group>"; };
+		553E41612080865D00895843 /* BuilderVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuilderVC.h; sourceTree = "<group>"; };
+		553E41622080865D00895843 /* BuilderVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuilderVC.m; sourceTree = "<group>"; };
+		553E41642080867600895843 /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		553E41652080867600895843 /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		553E41672080870500895843 /* BenzBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BenzBuilder.h; sourceTree = "<group>"; };
+		553E41682080870500895843 /* BenzBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BenzBuilder.m; sourceTree = "<group>"; };
+		553E416A2080871C00895843 /* BMWBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMWBuilder.h; sourceTree = "<group>"; };
+		553E416B2080871C00895843 /* BMWBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMWBuilder.m; sourceTree = "<group>"; };
+		553E416D2080874200895843 /* BenzCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BenzCar.h; sourceTree = "<group>"; };
+		553E416E2080874200895843 /* BenzCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BenzCar.m; sourceTree = "<group>"; };
+		553E41702080875300895843 /* BMWCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMWCar.h; sourceTree = "<group>"; };
+		553E41712080875300895843 /* BMWCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMWCar.m; sourceTree = "<group>"; };
+		553E417820808E5C00895843 /* BuilderProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuilderProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,12 +121,13 @@
 		553E40F520807A7E00895843 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				553E415F2080835400895843 /* 桥接模式 */,
+				553E41602080863D00895843 /* 建造者模式 */,
 				553E4152208082F700895843 /* 模板模式 */,
 				553E41442080822C00895843 /* 策略模式 */,
 				553E411C20807C5900895843 /* 单列模式 */,
-				553E411D20807D1200895843 /* 工厂模式 */,
 				553E413320807DDA00895843 /* 代理模式 */,
+				553E415F2080835400895843 /* 桥接模式 */,
+				553E411D20807D1200895843 /* 工厂模式 */,
 				553E40F620807A7E00895843 /* AppDelegate.h */,
 				553E40F720807A7E00895843 /* AppDelegate.m */,
 				553E40F920807A7E00895843 /* ViewController.h */,
@@ -201,6 +221,26 @@
 			children = (
 			);
 			path = "桥接模式";
+			sourceTree = "<group>";
+		};
+		553E41602080863D00895843 /* 建造者模式 */ = {
+			isa = PBXGroup;
+			children = (
+				553E417820808E5C00895843 /* BuilderProtocol.h */,
+				553E41642080867600895843 /* Car.h */,
+				553E41652080867600895843 /* Car.m */,
+				553E416D2080874200895843 /* BenzCar.h */,
+				553E416E2080874200895843 /* BenzCar.m */,
+				553E41702080875300895843 /* BMWCar.h */,
+				553E41712080875300895843 /* BMWCar.m */,
+				553E41672080870500895843 /* BenzBuilder.h */,
+				553E41682080870500895843 /* BenzBuilder.m */,
+				553E416A2080871C00895843 /* BMWBuilder.h */,
+				553E416B2080871C00895843 /* BMWBuilder.m */,
+				553E41612080865D00895843 /* BuilderVC.h */,
+				553E41622080865D00895843 /* BuilderVC.m */,
+			);
+			path = "建造者模式";
 			sourceTree = "<group>";
 		};
 		55B0D180206349DC00DECA09 = {
@@ -297,7 +337,9 @@
 				553E411920807C1000895843 /* ShareObjVC.m in Sources */,
 				553E415D2080832800895843 /* People.m in Sources */,
 				553E413220807D9000895843 /* BaseFactory.m in Sources */,
+				553E41662080867600895843 /* Car.m in Sources */,
 				553E412F20807D9000895843 /* Operation.m in Sources */,
+				553E416C2080871C00895843 /* BMWBuilder.m in Sources */,
 				553E413120807D9000895843 /* FactoryB.m in Sources */,
 				553E40FB20807A7E00895843 /* ViewController.m in Sources */,
 				553E415B2080832800895843 /* TemplateVC.m in Sources */,
@@ -306,13 +348,17 @@
 				553E412E20807D9000895843 /* Product.m in Sources */,
 				553E413020807D9000895843 /* FactoryVC.m in Sources */,
 				553E41502080828500895843 /* LetterLimit.m in Sources */,
+				553E41692080870500895843 /* BenzBuilder.m in Sources */,
 				553E4143208080FC00895843 /* YellowView.m in Sources */,
 				553E40F820807A7E00895843 /* AppDelegate.m in Sources */,
 				553E414F2080828500895843 /* StrategyVC.m in Sources */,
 				553E41512080828500895843 /* UITextField+Input.m in Sources */,
 				553E413F208080E500895843 /* DelegateVC.m in Sources */,
+				553E41722080875300895843 /* BMWCar.m in Sources */,
 				553E414E2080828500895843 /* NumIlimit.m in Sources */,
 				553E411820807C1000895843 /* SharedObject.m in Sources */,
+				553E416F2080874200895843 /* BenzCar.m in Sources */,
+				553E41632080865D00895843 /* BuilderVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
