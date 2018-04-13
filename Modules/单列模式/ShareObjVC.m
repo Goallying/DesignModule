@@ -17,7 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-    
+//    单列模式
+//    保证仅仅提供一个实例，并提供一个访问它的全局访问点
     SharedObject * s1 = [SharedObject shared];
     SharedObject * s2 = [[SharedObject alloc]init];
     

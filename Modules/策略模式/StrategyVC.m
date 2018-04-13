@@ -19,8 +19,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    //1.策略模式,由用户输入不同类型的策略来觉得输出。
-    //缺点：每增加一个新的类型。@Employee导致耦合度太高
+//    策略模式（算法封装）
+//    定义一系列算法，把它们一个个封装起来，并且使它们可相互替换。本模式使得算法可独立于使用
+//    它的客户而变化。（验证 UITextField 输入是否有效。有两个算法分别是验证邮箱的和验证电话号
+//    码的）
     self.view.backgroundColor = [UIColor whiteColor];
     
     UITextField * tf1 = [[UITextField alloc]initWithFrame:CGRectMake(0, 100, 100, 30)];

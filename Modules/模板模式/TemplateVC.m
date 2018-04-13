@@ -18,9 +18,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    //模板模式只是简单的继承？？比如UIView - drawRect 方法，在子类里面具体自定义当前view。
-    // Do any additional setup after loading the view, typically from a nib.
+//    模板模式
+//    定义一个操作中算法的骨架，而将一些步骤延迟到子类中。模板方法使子类可以重定义算法的某些特
+//    定步骤而不改变该算法的结构。（模板方法可以提高可扩展性与可复用性，比如 UIView 类中的定制
+//    绘图,UIView 的结构不改变，只是继承 UIView,再重载 - (void)drawRect:(CGRect)rect 方法。）
     Doctor * doc = [[Doctor alloc]init];
     [doc work];
     
