@@ -27,38 +27,23 @@
     //1.策略模式,由用户输入不同类型的策略来觉得输出。
     //缺点：每增加一个新的类型。@Employee导致耦合度太高
     self.view.backgroundColor = [UIColor whiteColor];
-    // Do any additional setup after loading the view, typically from a nib.
-    Employee<EmployeeProtocol> * em1 = [Employee employWithType:Type_Developer];
-    Employee<EmployeeProtocol> * em2 = [Employee employWithType:Type_Designer];
-    [em1 say];
-    [em2 say];
+//    // Do any additional setup after loading the view, typically from a nib.
+//    Employee<EmployeeProtocol> * em1 = [Employee employWithType:Type_Developer];
+//    Employee<EmployeeProtocol> * em2 = [Employee employWithType:Type_Designer];
+//    [em1 say];
+//    [em2 say];
     
-//    UITextField * tf1 = [[UITextField alloc]initWithFrame:CGRectMake(0, 100, 100, 30)];
-//    tf1.delegate = self ;
-//    tf1.limit = [NumIlimit new];
-//    tf1.backgroundColor = [UIColor yellowColor];
-//    [self.view addSubview:tf1];
-//    
-//    UITextField * tf2 = [[UITextField alloc]initWithFrame:CGRectMake(0, 150, 100, 30)];
-//    tf2.delegate = self ;
-//    tf2.limit = [LetterLimit new];
-//    tf2.backgroundColor = [UIColor yellowColor];
-//    [self.view addSubview:tf2];
+    UITextField * tf1 = [[UITextField alloc]initWithFrame:CGRectMake(0, 100, 100, 30)];
+    tf1.delegate = self ;
+    tf1.limit = limit_Num;
+    tf1.backgroundColor = [UIColor yellowColor];
+    [self.view addSubview:tf1];
     
-    
-    UICollectionViewFlowLayout * layoyt = [[UICollectionViewFlowLayout alloc]init];
-    _collectionView = [[UICollectionView alloc]initWithFrame:self.view.bounds collectionViewLayout:layoyt];
-    _collectionView.backgroundColor = [UIColor whiteColor];
-    _collectionView.delegate = self ;
-    _collectionView.dataSource= self ;
-    [_collectionView registerNib:[UINib nibWithNibName:@"CollectionViewCell" bundle:nil] forCellWithReuseIdentifier:@"cell"];
-    [self.view addSubview:_collectionView];
-    
-    
-    UIBarButtonItem * item = [[UIBarButtonItem alloc]initWithTitle:@"change" style:0 target:self action:@selector(change)];
-    self.navigationItem.rightBarButtonItem = item ;
-    
-    
+    UITextField * tf2 = [[UITextField alloc]initWithFrame:CGRectMake(0, 150, 100, 30)];
+    tf2.delegate = self ;
+    tf2.limit = limit_Letter;
+    tf2.backgroundColor = [UIColor yellowColor];
+    [self.view addSubview:tf2];
 }
 
 - (void)change {

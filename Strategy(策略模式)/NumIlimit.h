@@ -6,8 +6,11 @@
 //  Copyright © 2018年 朱来飞. All rights reserved.
 //
 
-#import "InputlimitType.h"
+#import <UIKit/UIKit.h>
+#import "StrategyProtocol.h"
 
-@interface NumIlimit : InputlimitType
+@interface NumIlimit : NSObject<UITextInputProtol>
+
+
 
 @end

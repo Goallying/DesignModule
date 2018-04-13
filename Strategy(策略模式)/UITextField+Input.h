@@ -7,11 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "NumIlimit.h"
-#import "LetterLimit.h"
+typedef NS_ENUM(NSInteger ,LimitType) {
+    limit_Num ,
+    limit_Letter
+};
 @interface UITextField (Input)
 
-@property (nonatomic , strong)InputlimitType *  limit ;
+@property (nonatomic , assign)LimitType  limit ;
 
 - (void)charge ;
 

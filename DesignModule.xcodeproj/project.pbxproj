@@ -67,7 +67,6 @@
 		AE0B9A0320710211004B1038 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE0B9A0120710211004B1038 /* CollectionViewCell.xib */; };
 		AE0B9A092071099E004B1038 /* UICollectionView+Type.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0B9A082071099E004B1038 /* UICollectionView+Type.m */; };
 		AE45D5AC206FC76F00C39416 /* UITextField+Input.m in Sources */ = {isa = PBXBuildFile; fileRef = AE45D5AB206FC76F00C39416 /* UITextField+Input.m */; };
-		AE45D5AF206FC79F00C39416 /* InputlimitType.m in Sources */ = {isa = PBXBuildFile; fileRef = AE45D5AE206FC79F00C39416 /* InputlimitType.m */; };
 		AE45D5B2206FC8C700C39416 /* NumIlimit.m in Sources */ = {isa = PBXBuildFile; fileRef = AE45D5B1206FC8C700C39416 /* NumIlimit.m */; };
 		AE45D5B5206FC8D700C39416 /* LetterLimit.m in Sources */ = {isa = PBXBuildFile; fileRef = AE45D5B4206FC8D700C39416 /* LetterLimit.m */; };
 		AE6271AB206A674A00003160 /* Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6271AA206A674A00003160 /* Operation.m */; };
@@ -76,6 +75,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		553E40EF2080758000895843 /* StrategyProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StrategyProtocol.h; sourceTree = "<group>"; };
 		55B0D1A620634AAD00DECA09 /* SingleTon(单列模式).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SingleTon(单列模式).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55B0D1A820634AAD00DECA09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		55B0D1A920634AAD00DECA09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -184,8 +184,6 @@
 		AE0B9A082071099E004B1038 /* UICollectionView+Type.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+Type.m"; sourceTree = "<group>"; };
 		AE45D5AA206FC76F00C39416 /* UITextField+Input.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+Input.h"; sourceTree = "<group>"; };
 		AE45D5AB206FC76F00C39416 /* UITextField+Input.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Input.m"; sourceTree = "<group>"; };
-		AE45D5AD206FC79F00C39416 /* InputlimitType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputlimitType.h; sourceTree = "<group>"; };
-		AE45D5AE206FC79F00C39416 /* InputlimitType.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputlimitType.m; sourceTree = "<group>"; };
 		AE45D5B0206FC8C700C39416 /* NumIlimit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumIlimit.h; sourceTree = "<group>"; };
 		AE45D5B1206FC8C700C39416 /* NumIlimit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumIlimit.m; sourceTree = "<group>"; };
 		AE45D5B3206FC8D700C39416 /* LetterLimit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LetterLimit.h; sourceTree = "<group>"; };
@@ -345,14 +343,13 @@
 				55B0D23620635C8800DECA09 /* EmployeeProtocol.h */,
 				55B0D21220635C2700DECA09 /* AppDelegate.h */,
 				55B0D21320635C2700DECA09 /* AppDelegate.m */,
+				553E40EF2080758000895843 /* StrategyProtocol.h */,
 				AE45D5AA206FC76F00C39416 /* UITextField+Input.h */,
 				AE45D5AB206FC76F00C39416 /* UITextField+Input.m */,
 				AE45D5B0206FC8C700C39416 /* NumIlimit.h */,
 				AE45D5B1206FC8C700C39416 /* NumIlimit.m */,
 				AE45D5B3206FC8D700C39416 /* LetterLimit.h */,
 				AE45D5B4206FC8D700C39416 /* LetterLimit.m */,
-				AE45D5AD206FC79F00C39416 /* InputlimitType.h */,
-				AE45D5AE206FC79F00C39416 /* InputlimitType.m */,
 				AE0B9A072071099E004B1038 /* UICollectionView+Type.h */,
 				AE0B9A082071099E004B1038 /* UICollectionView+Type.m */,
 				AE0B99FF20710211004B1038 /* CollectionViewCell.h */,
@@ -700,7 +697,6 @@
 				55B0D21720635C2700DECA09 /* ViewController.m in Sources */,
 				55B0D23820635C8800DECA09 /* Designer.m in Sources */,
 				AE45D5AC206FC76F00C39416 /* UITextField+Input.m in Sources */,
-				AE45D5AF206FC79F00C39416 /* InputlimitType.m in Sources */,
 				55B0D23720635C8800DECA09 /* Employee.m in Sources */,
 				55B0D22220635C2700DECA09 /* main.m in Sources */,
 				AE45D5B5206FC8D700C39416 /* LetterLimit.m in Sources */,

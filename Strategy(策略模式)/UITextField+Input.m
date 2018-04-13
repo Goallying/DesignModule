@@ -8,19 +8,28 @@
 
 #import "UITextField+Input.h"
 #import <objc/runtime.h>
+
+#import "NumIlimit.h"
+#import "LetterLimit.h"
+
 static void * limitKey = "limitKey";
 
 @implementation UITextField (Input)
 
-- (void)charge {
-    [self.limit chargeTF:self];
+- (void)setLimit:(LimitType)limit{
+    
+    id<UITextInputProtol> obj = nil ;
+    if (limit == limit_Num) {
+        obj = [NumIlimit new];
+    }else if (limit == limit_Letter){
+        obj = [LetterLimit new];
+    }
+    objc_setAssociatedObject(self, limitKey, obj, OBJC_ASSOCIATION_RETAIN);
 }
 
-- (void)setLimit:(InputlimitType *)limit{
+- (void)charge {
     
-    objc_setAssociatedObject(self, limitKey, limit, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
-}
-- (InputlimitType *)limit{
-    return objc_getAssociatedObject(self, limitKey);
+    id <UITextInputProtol> obj = objc_getAssociatedObject(self, limitKey);
+    [obj chargeTF:self];
 }
 @end

@@ -10,7 +10,7 @@
 
 @implementation NumIlimit
 
-- (void)chargeTF:(UITextField *)tf{
+- (void)chargeTF:(id)tf{
     
     NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:@"^[0-9]*$" options:NSRegularExpressionAnchorsMatchLines error:nil];
     
