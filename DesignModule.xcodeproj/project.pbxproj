@@ -39,6 +39,15 @@
 		553E416C2080871C00895843 /* BMWBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 553E416B2080871C00895843 /* BMWBuilder.m */; };
 		553E416F2080874200895843 /* BenzCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 553E416E2080874200895843 /* BenzCar.m */; };
 		553E41722080875300895843 /* BMWCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 553E41712080875300895843 /* BMWCar.m */; };
+		5585393C208436B700DA4C37 /* FacadeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5585393B208436B700DA4C37 /* FacadeVC.m */; };
+		5585393F208436ED00DA4C37 /* GoodsSaler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5585393E208436ED00DA4C37 /* GoodsSaler.m */; };
+		55853943208438EB00DA4C37 /* MediatorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 55853942208438EB00DA4C37 /* MediatorVC.m */; };
+		55853947208439D000DA4C37 /* KVOVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 55853946208439D000DA4C37 /* KVOVC.m */; };
+		5585394B2084406D00DA4C37 /* ComponentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5585394A2084406D00DA4C37 /* ComponentVC.m */; };
+		5585394F2084452C00DA4C37 /* EnumeratorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5585394E2084452C00DA4C37 /* EnumeratorVC.m */; };
+		55853952208445DE00DA4C37 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 55853951208445DE00DA4C37 /* Node.m */; };
+		558539552084466E00DA4C37 /* NodeList.m in Sources */ = {isa = PBXBuildFile; fileRef = 558539542084466E00DA4C37 /* NodeList.m */; };
+		558539582084481E00DA4C37 /* NodeEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 558539572084481E00DA4C37 /* NodeEnumerator.m */; };
 		AE539D422080E00400A3D70B /* AVPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AE539D412080E00400A3D70B /* AVPlayer.m */; };
 		AE539D452080E05900A3D70B /* AdapterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AE539D442080E05900A3D70B /* AdapterVC.m */; };
 		AE539D482080E10900A3D70B /* IJKPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AE539D472080E10900A3D70B /* IJKPlayer.m */; };
@@ -109,6 +118,24 @@
 		553E41702080875300895843 /* BMWCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMWCar.h; sourceTree = "<group>"; };
 		553E41712080875300895843 /* BMWCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMWCar.m; sourceTree = "<group>"; };
 		553E417820808E5C00895843 /* BuilderProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuilderProtocol.h; sourceTree = "<group>"; };
+		5585393A208436B700DA4C37 /* FacadeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FacadeVC.h; sourceTree = "<group>"; };
+		5585393B208436B700DA4C37 /* FacadeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacadeVC.m; sourceTree = "<group>"; };
+		5585393D208436ED00DA4C37 /* GoodsSaler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoodsSaler.h; sourceTree = "<group>"; };
+		5585393E208436ED00DA4C37 /* GoodsSaler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoodsSaler.m; sourceTree = "<group>"; };
+		55853941208438EB00DA4C37 /* MediatorVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediatorVC.h; sourceTree = "<group>"; };
+		55853942208438EB00DA4C37 /* MediatorVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediatorVC.m; sourceTree = "<group>"; };
+		55853945208439D000DA4C37 /* KVOVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVOVC.h; sourceTree = "<group>"; };
+		55853946208439D000DA4C37 /* KVOVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVOVC.m; sourceTree = "<group>"; };
+		558539492084406D00DA4C37 /* ComponentVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComponentVC.h; sourceTree = "<group>"; };
+		5585394A2084406D00DA4C37 /* ComponentVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComponentVC.m; sourceTree = "<group>"; };
+		5585394D2084452C00DA4C37 /* EnumeratorVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnumeratorVC.h; sourceTree = "<group>"; };
+		5585394E2084452C00DA4C37 /* EnumeratorVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnumeratorVC.m; sourceTree = "<group>"; };
+		55853950208445DE00DA4C37 /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		55853951208445DE00DA4C37 /* Node.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		558539532084466E00DA4C37 /* NodeList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NodeList.h; sourceTree = "<group>"; };
+		558539542084466E00DA4C37 /* NodeList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NodeList.m; sourceTree = "<group>"; };
+		558539562084481E00DA4C37 /* NodeEnumerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NodeEnumerator.h; sourceTree = "<group>"; };
+		558539572084481E00DA4C37 /* NodeEnumerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NodeEnumerator.m; sourceTree = "<group>"; };
 		AE539D3F2080DFAA00A3D70B /* AVPlayerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVPlayerProtocol.h; sourceTree = "<group>"; };
 		AE539D402080E00400A3D70B /* AVPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVPlayer.h; sourceTree = "<group>"; };
 		AE539D412080E00400A3D70B /* AVPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVPlayer.m; sourceTree = "<group>"; };
@@ -134,6 +161,11 @@
 		553E40F520807A7E00895843 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				5585394C2084418A00DA4C37 /* 迭代器模式 */,
+				558539482084405900DA4C37 /* 组合模式 */,
+				558539442084396E00DA4C37 /* 观察者模式 */,
+				558539402084383300DA4C37 /* 中介者模式 */,
+				558539392084353C00DA4C37 /* 外观模式 */,
 				AE539D3E2080DF8E00A3D70B /* 适配器模式 */,
 				553E41602080863D00895843 /* 建造者模式 */,
 				553E4152208082F700895843 /* 模板模式 */,
@@ -249,6 +281,59 @@
 			path = "建造者模式";
 			sourceTree = "<group>";
 		};
+		558539392084353C00DA4C37 /* 外观模式 */ = {
+			isa = PBXGroup;
+			children = (
+				5585393A208436B700DA4C37 /* FacadeVC.h */,
+				5585393B208436B700DA4C37 /* FacadeVC.m */,
+				5585393D208436ED00DA4C37 /* GoodsSaler.h */,
+				5585393E208436ED00DA4C37 /* GoodsSaler.m */,
+			);
+			path = "外观模式";
+			sourceTree = "<group>";
+		};
+		558539402084383300DA4C37 /* 中介者模式 */ = {
+			isa = PBXGroup;
+			children = (
+				55853941208438EB00DA4C37 /* MediatorVC.h */,
+				55853942208438EB00DA4C37 /* MediatorVC.m */,
+			);
+			path = "中介者模式";
+			sourceTree = "<group>";
+		};
+		558539442084396E00DA4C37 /* 观察者模式 */ = {
+			isa = PBXGroup;
+			children = (
+				55853945208439D000DA4C37 /* KVOVC.h */,
+				55853946208439D000DA4C37 /* KVOVC.m */,
+			);
+			path = "观察者模式";
+			sourceTree = "<group>";
+		};
+		558539482084405900DA4C37 /* 组合模式 */ = {
+			isa = PBXGroup;
+			children = (
+				558539492084406D00DA4C37 /* ComponentVC.h */,
+				5585394A2084406D00DA4C37 /* ComponentVC.m */,
+			);
+			path = "组合模式";
+			sourceTree = "<group>";
+		};
+		5585394C2084418A00DA4C37 /* 迭代器模式 */ = {
+			isa = PBXGroup;
+			children = (
+				55853950208445DE00DA4C37 /* Node.h */,
+				55853951208445DE00DA4C37 /* Node.m */,
+				558539532084466E00DA4C37 /* NodeList.h */,
+				558539542084466E00DA4C37 /* NodeList.m */,
+				558539562084481E00DA4C37 /* NodeEnumerator.h */,
+				558539572084481E00DA4C37 /* NodeEnumerator.m */,
+				5585394D2084452C00DA4C37 /* EnumeratorVC.h */,
+				5585394E2084452C00DA4C37 /* EnumeratorVC.m */,
+			);
+			path = "迭代器模式";
+			sourceTree = "<group>";
+		};
 		55B0D180206349DC00DECA09 = {
 			isa = PBXGroup;
 			children = (
@@ -353,9 +438,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5585394B2084406D00DA4C37 /* ComponentVC.m in Sources */,
 				AE539D482080E10900A3D70B /* IJKPlayer.m in Sources */,
 				553E415E2080832800895843 /* Doctor.m in Sources */,
 				553E412C20807D9000895843 /* FactoryA.m in Sources */,
+				5585394F2084452C00DA4C37 /* EnumeratorVC.m in Sources */,
+				55853947208439D000DA4C37 /* KVOVC.m in Sources */,
 				553E412D20807D9000895843 /* OperationAdd.m in Sources */,
 				553E411920807C1000895843 /* ShareObjVC.m in Sources */,
 				AE539D4B2080E29200A3D70B /* IJKAdapter.m in Sources */,
@@ -366,20 +454,26 @@
 				553E416C2080871C00895843 /* BMWBuilder.m in Sources */,
 				553E413120807D9000895843 /* FactoryB.m in Sources */,
 				553E40FB20807A7E00895843 /* ViewController.m in Sources */,
+				5585393C208436B700DA4C37 /* FacadeVC.m in Sources */,
 				553E415B2080832800895843 /* TemplateVC.m in Sources */,
 				AE539D452080E05900A3D70B /* AdapterVC.m in Sources */,
 				553E415C2080832800895843 /* Teacher.m in Sources */,
 				553E410620807A7E00895843 /* main.m in Sources */,
+				558539582084481E00DA4C37 /* NodeEnumerator.m in Sources */,
 				553E412E20807D9000895843 /* Product.m in Sources */,
 				553E413020807D9000895843 /* FactoryVC.m in Sources */,
 				553E41502080828500895843 /* LetterLimit.m in Sources */,
 				553E41692080870500895843 /* BenzBuilder.m in Sources */,
 				553E4143208080FC00895843 /* YellowView.m in Sources */,
+				55853952208445DE00DA4C37 /* Node.m in Sources */,
 				553E40F820807A7E00895843 /* AppDelegate.m in Sources */,
+				55853943208438EB00DA4C37 /* MediatorVC.m in Sources */,
 				553E414F2080828500895843 /* StrategyVC.m in Sources */,
 				553E41512080828500895843 /* UITextField+Input.m in Sources */,
+				558539552084466E00DA4C37 /* NodeList.m in Sources */,
 				AE539D422080E00400A3D70B /* AVPlayer.m in Sources */,
 				553E413F208080E500895843 /* DelegateVC.m in Sources */,
+				5585393F208436ED00DA4C37 /* GoodsSaler.m in Sources */,
 				553E41722080875300895843 /* BMWCar.m in Sources */,
 				553E414E2080828500895843 /* NumIlimit.m in Sources */,
 				553E411820807C1000895843 /* SharedObject.m in Sources */,

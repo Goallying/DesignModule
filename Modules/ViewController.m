@@ -22,8 +22,16 @@
     _datas = @[@"单列模式" ,@"工厂模式" ,
                @"代理模式" ,@"策略模式",
                @"模板模式",@"建造者模式",
-               @"适配器模式"];
-    _vcs = @[@"ShareObjVC",@"FactoryVC",@"DelegateVC",@"StrategyVC",@"TemplateVC",@"BuilderVC",@"AdapterVC"];
+               @"适配器模式",@"外观模式",
+               @"中介者模式",@"观察者模式",
+               @"组合模式",@"迭代器模式"];
+    
+    _vcs = @[@"ShareObjVC",@"FactoryVC",
+             @"DelegateVC",@"StrategyVC",
+             @"TemplateVC",@"BuilderVC",
+             @"AdapterVC",@"FacadeVC",
+             @"MediatorVC",@"KVOVC",
+             @"ComponentVC",@"EnumeratorVC"];
     
     UITableView * t = [[UITableView alloc]initWithFrame:self.view.bounds];
     t.delegate = self ;

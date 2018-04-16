@@ -27,7 +27,7 @@
 		<key>Modules.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>6</integer>
+			<integer>0</integer>
 		</dict>
 		<key>SingleTon(单列模式).xcscheme</key>
 		<dict>
