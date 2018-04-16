@@ -12,7 +12,7 @@
 @interface NodeList : NSObject
 
 
-@property (nonatomic ,strong ,readonly) Node * head ;
+@property (nonatomic ,strong ,readonly)Node * head ;
 @property (nonatomic ,assign, readonly)NSInteger nodeCount ;
 - (void) addItem:(id)item ;
 

@@ -24,14 +24,20 @@
                @"模板模式",@"建造者模式",
                @"适配器模式",@"外观模式",
                @"中介者模式",@"观察者模式",
-               @"组合模式",@"迭代器模式"];
+               @"组合模式",@"迭代器模式",
+               @"访问者模式",@"装饰模式",
+               @"责任链模式",@"命令模式",
+               @"备忘录模式"];
     
     _vcs = @[@"ShareObjVC",@"FactoryVC",
              @"DelegateVC",@"StrategyVC",
              @"TemplateVC",@"BuilderVC",
              @"AdapterVC",@"FacadeVC",
              @"MediatorVC",@"KVOVC",
-             @"ComponentVC",@"EnumeratorVC"];
+             @"ComponentVC",@"EnumeratorVC",
+             @"VisitorVC",@"DecorateVC",
+             @"ResponsibilityChainVC",@"CommandVC",
+             @"MementoVC"];
     
     UITableView * t = [[UITableView alloc]initWithFrame:self.view.bounds];
     t.delegate = self ;
@@ -47,7 +53,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     
     UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
-    cell.textLabel.text = _datas[indexPath.row];
+    cell.textLabel.text = [NSString stringWithFormat:@"%@ --- %ld",_datas[indexPath.row],indexPath.row + 1];
     
     return cell;
 }

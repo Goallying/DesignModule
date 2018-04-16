@@ -48,6 +48,18 @@
 		55853952208445DE00DA4C37 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 55853951208445DE00DA4C37 /* Node.m */; };
 		558539552084466E00DA4C37 /* NodeList.m in Sources */ = {isa = PBXBuildFile; fileRef = 558539542084466E00DA4C37 /* NodeList.m */; };
 		558539582084481E00DA4C37 /* NodeEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 558539572084481E00DA4C37 /* NodeEnumerator.m */; };
+		5585395D20846DF900DA4C37 /* VisitorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5585395C20846DF900DA4C37 /* VisitorVC.m */; };
+		5585396020846F6D00DA4C37 /* WikiCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5585395F20846F6D00DA4C37 /* WikiCar.m */; };
+		5585396320846F7A00DA4C37 /* WikiEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 5585396220846F7A00DA4C37 /* WikiEngine.m */; };
+		5585396620846F9A00DA4C37 /* WikiWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5585396520846F9A00DA4C37 /* WikiWheel.m */; };
+		5585396A2084728200DA4C37 /* Visitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 558539692084728200DA4C37 /* Visitor.m */; };
+		5585396E20847AA900DA4C37 /* DecorateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5585396D20847AA900DA4C37 /* DecorateVC.m */; };
+		5585397220847DE600DA4C37 /* ResponsibilityChainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5585397120847DE600DA4C37 /* ResponsibilityChainVC.m */; };
+		558539772084863300DA4C37 /* ConcreteCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 558539762084863300DA4C37 /* ConcreteCommand.m */; };
+		5585397A2084865500DA4C37 /* CommandReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 558539792084865500DA4C37 /* CommandReceiver.m */; };
+		5585397D2084871A00DA4C37 /* Invoker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5585397C2084871A00DA4C37 /* Invoker.m */; };
+		558539802084878A00DA4C37 /* CommandVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5585397F2084878A00DA4C37 /* CommandVC.m */; };
+		55853984208489A900DA4C37 /* MementoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 55853983208489A900DA4C37 /* MementoVC.m */; };
 		AE539D422080E00400A3D70B /* AVPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AE539D412080E00400A3D70B /* AVPlayer.m */; };
 		AE539D452080E05900A3D70B /* AdapterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AE539D442080E05900A3D70B /* AdapterVC.m */; };
 		AE539D482080E10900A3D70B /* IJKPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AE539D472080E10900A3D70B /* IJKPlayer.m */; };
@@ -136,6 +148,32 @@
 		558539542084466E00DA4C37 /* NodeList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NodeList.m; sourceTree = "<group>"; };
 		558539562084481E00DA4C37 /* NodeEnumerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NodeEnumerator.h; sourceTree = "<group>"; };
 		558539572084481E00DA4C37 /* NodeEnumerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NodeEnumerator.m; sourceTree = "<group>"; };
+		5585395B20846DF900DA4C37 /* VisitorVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VisitorVC.h; sourceTree = "<group>"; };
+		5585395C20846DF900DA4C37 /* VisitorVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VisitorVC.m; sourceTree = "<group>"; };
+		5585395E20846F6D00DA4C37 /* WikiCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WikiCar.h; sourceTree = "<group>"; };
+		5585395F20846F6D00DA4C37 /* WikiCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WikiCar.m; sourceTree = "<group>"; };
+		5585396120846F7A00DA4C37 /* WikiEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WikiEngine.h; sourceTree = "<group>"; };
+		5585396220846F7A00DA4C37 /* WikiEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WikiEngine.m; sourceTree = "<group>"; };
+		5585396420846F9A00DA4C37 /* WikiWheel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WikiWheel.h; sourceTree = "<group>"; };
+		5585396520846F9A00DA4C37 /* WikiWheel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WikiWheel.m; sourceTree = "<group>"; };
+		558539672084713500DA4C37 /* VisitorProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VisitorProtocol.h; sourceTree = "<group>"; };
+		558539682084728200DA4C37 /* Visitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Visitor.h; sourceTree = "<group>"; };
+		558539692084728200DA4C37 /* Visitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Visitor.m; sourceTree = "<group>"; };
+		5585396C20847AA900DA4C37 /* DecorateVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DecorateVC.h; sourceTree = "<group>"; };
+		5585396D20847AA900DA4C37 /* DecorateVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecorateVC.m; sourceTree = "<group>"; };
+		5585397020847DE600DA4C37 /* ResponsibilityChainVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResponsibilityChainVC.h; sourceTree = "<group>"; };
+		5585397120847DE600DA4C37 /* ResponsibilityChainVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResponsibilityChainVC.m; sourceTree = "<group>"; };
+		55853974208485E200DA4C37 /* CommandProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandProtocol.h; sourceTree = "<group>"; };
+		558539752084863300DA4C37 /* ConcreteCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreteCommand.h; sourceTree = "<group>"; };
+		558539762084863300DA4C37 /* ConcreteCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreteCommand.m; sourceTree = "<group>"; };
+		558539782084865500DA4C37 /* CommandReceiver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandReceiver.h; sourceTree = "<group>"; };
+		558539792084865500DA4C37 /* CommandReceiver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommandReceiver.m; sourceTree = "<group>"; };
+		5585397B2084871A00DA4C37 /* Invoker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Invoker.h; sourceTree = "<group>"; };
+		5585397C2084871A00DA4C37 /* Invoker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Invoker.m; sourceTree = "<group>"; };
+		5585397E2084878A00DA4C37 /* CommandVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandVC.h; sourceTree = "<group>"; };
+		5585397F2084878A00DA4C37 /* CommandVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommandVC.m; sourceTree = "<group>"; };
+		55853982208489A900DA4C37 /* MementoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MementoVC.h; sourceTree = "<group>"; };
+		55853983208489A900DA4C37 /* MementoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MementoVC.m; sourceTree = "<group>"; };
 		AE539D3F2080DFAA00A3D70B /* AVPlayerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVPlayerProtocol.h; sourceTree = "<group>"; };
 		AE539D402080E00400A3D70B /* AVPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVPlayer.h; sourceTree = "<group>"; };
 		AE539D412080E00400A3D70B /* AVPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVPlayer.m; sourceTree = "<group>"; };
@@ -161,6 +199,11 @@
 		553E40F520807A7E00895843 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				558539812084899400DA4C37 /* 备忘录 */,
+				558539732084842100DA4C37 /* 命令模式 */,
+				5585396F20847DAF00DA4C37 /* 责任链模式 */,
+				5585396B20847A7D00DA4C37 /* 装饰模式 */,
+				5585395A20846DD200DA4C37 /* 访问者模式 */,
 				5585394C2084418A00DA4C37 /* 迭代器模式 */,
 				558539482084405900DA4C37 /* 组合模式 */,
 				558539442084396E00DA4C37 /* 观察者模式 */,
@@ -334,6 +377,67 @@
 			path = "迭代器模式";
 			sourceTree = "<group>";
 		};
+		5585395A20846DD200DA4C37 /* 访问者模式 */ = {
+			isa = PBXGroup;
+			children = (
+				558539672084713500DA4C37 /* VisitorProtocol.h */,
+				5585395E20846F6D00DA4C37 /* WikiCar.h */,
+				5585395F20846F6D00DA4C37 /* WikiCar.m */,
+				5585396120846F7A00DA4C37 /* WikiEngine.h */,
+				5585396220846F7A00DA4C37 /* WikiEngine.m */,
+				5585396420846F9A00DA4C37 /* WikiWheel.h */,
+				5585396520846F9A00DA4C37 /* WikiWheel.m */,
+				558539682084728200DA4C37 /* Visitor.h */,
+				558539692084728200DA4C37 /* Visitor.m */,
+				5585395B20846DF900DA4C37 /* VisitorVC.h */,
+				5585395C20846DF900DA4C37 /* VisitorVC.m */,
+			);
+			path = "访问者模式";
+			sourceTree = "<group>";
+		};
+		5585396B20847A7D00DA4C37 /* 装饰模式 */ = {
+			isa = PBXGroup;
+			children = (
+				5585396C20847AA900DA4C37 /* DecorateVC.h */,
+				5585396D20847AA900DA4C37 /* DecorateVC.m */,
+			);
+			path = "装饰模式";
+			sourceTree = "<group>";
+		};
+		5585396F20847DAF00DA4C37 /* 责任链模式 */ = {
+			isa = PBXGroup;
+			children = (
+				5585397020847DE600DA4C37 /* ResponsibilityChainVC.h */,
+				5585397120847DE600DA4C37 /* ResponsibilityChainVC.m */,
+			);
+			path = "责任链模式";
+			sourceTree = "<group>";
+		};
+		558539732084842100DA4C37 /* 命令模式 */ = {
+			isa = PBXGroup;
+			children = (
+				55853974208485E200DA4C37 /* CommandProtocol.h */,
+				558539782084865500DA4C37 /* CommandReceiver.h */,
+				558539792084865500DA4C37 /* CommandReceiver.m */,
+				558539752084863300DA4C37 /* ConcreteCommand.h */,
+				558539762084863300DA4C37 /* ConcreteCommand.m */,
+				5585397B2084871A00DA4C37 /* Invoker.h */,
+				5585397C2084871A00DA4C37 /* Invoker.m */,
+				5585397E2084878A00DA4C37 /* CommandVC.h */,
+				5585397F2084878A00DA4C37 /* CommandVC.m */,
+			);
+			path = "命令模式";
+			sourceTree = "<group>";
+		};
+		558539812084899400DA4C37 /* 备忘录 */ = {
+			isa = PBXGroup;
+			children = (
+				55853982208489A900DA4C37 /* MementoVC.h */,
+				55853983208489A900DA4C37 /* MementoVC.m */,
+			);
+			path = "备忘录";
+			sourceTree = "<group>";
+		};
 		55B0D180206349DC00DECA09 = {
 			isa = PBXGroup;
 			children = (
@@ -438,17 +542,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5585397D2084871A00DA4C37 /* Invoker.m in Sources */,
+				55853984208489A900DA4C37 /* MementoVC.m in Sources */,
 				5585394B2084406D00DA4C37 /* ComponentVC.m in Sources */,
 				AE539D482080E10900A3D70B /* IJKPlayer.m in Sources */,
 				553E415E2080832800895843 /* Doctor.m in Sources */,
 				553E412C20807D9000895843 /* FactoryA.m in Sources */,
 				5585394F2084452C00DA4C37 /* EnumeratorVC.m in Sources */,
+				5585395D20846DF900DA4C37 /* VisitorVC.m in Sources */,
+				558539772084863300DA4C37 /* ConcreteCommand.m in Sources */,
+				5585396E20847AA900DA4C37 /* DecorateVC.m in Sources */,
 				55853947208439D000DA4C37 /* KVOVC.m in Sources */,
+				5585396020846F6D00DA4C37 /* WikiCar.m in Sources */,
 				553E412D20807D9000895843 /* OperationAdd.m in Sources */,
 				553E411920807C1000895843 /* ShareObjVC.m in Sources */,
 				AE539D4B2080E29200A3D70B /* IJKAdapter.m in Sources */,
 				553E415D2080832800895843 /* People.m in Sources */,
 				553E413220807D9000895843 /* BaseFactory.m in Sources */,
+				5585396620846F9A00DA4C37 /* WikiWheel.m in Sources */,
 				553E41662080867600895843 /* Car.m in Sources */,
 				553E412F20807D9000895843 /* Operation.m in Sources */,
 				553E416C2080871C00895843 /* BMWBuilder.m in Sources */,
@@ -458,11 +569,15 @@
 				553E415B2080832800895843 /* TemplateVC.m in Sources */,
 				AE539D452080E05900A3D70B /* AdapterVC.m in Sources */,
 				553E415C2080832800895843 /* Teacher.m in Sources */,
+				558539802084878A00DA4C37 /* CommandVC.m in Sources */,
 				553E410620807A7E00895843 /* main.m in Sources */,
 				558539582084481E00DA4C37 /* NodeEnumerator.m in Sources */,
 				553E412E20807D9000895843 /* Product.m in Sources */,
+				5585396320846F7A00DA4C37 /* WikiEngine.m in Sources */,
 				553E413020807D9000895843 /* FactoryVC.m in Sources */,
 				553E41502080828500895843 /* LetterLimit.m in Sources */,
+				5585397220847DE600DA4C37 /* ResponsibilityChainVC.m in Sources */,
+				5585397A2084865500DA4C37 /* CommandReceiver.m in Sources */,
 				553E41692080870500895843 /* BenzBuilder.m in Sources */,
 				553E4143208080FC00895843 /* YellowView.m in Sources */,
 				55853952208445DE00DA4C37 /* Node.m in Sources */,
@@ -476,6 +591,7 @@
 				5585393F208436ED00DA4C37 /* GoodsSaler.m in Sources */,
 				553E41722080875300895843 /* BMWCar.m in Sources */,
 				553E414E2080828500895843 /* NumIlimit.m in Sources */,
+				5585396A2084728200DA4C37 /* Visitor.m in Sources */,
 				553E411820807C1000895843 /* SharedObject.m in Sources */,
 				553E416F2080874200895843 /* BenzCar.m in Sources */,
 				553E41632080865D00895843 /* BuilderVC.m in Sources */,
